@@ -1,0 +1,26 @@
+{
+  "name": "quick-publish",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build && electron-builder",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "@wangeditor/editor": "^5.1.23",
+    "electron": "^27.0.3",
+    "electron-builder": "^24.6.4",
+    "element-plus": "^2.4.2",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0",
+    "vite-plugin-electron": "^0.14.1",
+    "vite-plugin-electron-renderer": "^0.14.5",
+    "vue-tsc": "^1.8.22"
+  },
+  "main": "dist-electron/main.js"
+}
