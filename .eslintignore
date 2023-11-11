@@ -1,0 +1,5 @@
+.idea
+dist-electron
+.vscode
+public
+node_modules
